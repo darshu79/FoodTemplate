@@ -1,0 +1,433 @@
+.h1
+{
+	text-align: center;
+	font-size: 45px;
+	font-family:Cooper Black;
+	position:relative;
+	top: -30px;
+
+
+}
+h1::first-letter
+{
+	color: darkorange;
+	font-size: 100px;
+}
+
+
+/* Header Section CSS Start */	
+
+
+header
+{
+		
+}
+header div ul
+{
+		margin:0px;
+		padding:0px;
+		position:absolute;
+		right:20px;
+		top:-60px
+}
+header li
+{
+	display:inline-block;
+	padding:2px 2px;
+	line-height:50px;
+	padding-right:10px;
+
+}
+header a
+{
+		color:black;
+		font-size:30px;
+		text-decoration:none;
+		
+		font-family:Lucida Handwriting;
+	
+}
+header ul a:hover
+{
+	color: red;
+	font-family: ;
+	transition: ease-in-sout 0.5s;
+	background:orange;
+	border-radius: 10px;
+	
+
+}
+
+.btn1
+{
+		background:black;
+		color:white;
+		height:28px;
+		position:relative;
+		top:-2px;
+		left:4px;
+		padding:2px;
+}
+.btn1:hover
+{
+	transition:ease-in-out 0.5s;
+	color: black;
+	background:orange;
+}
+.input
+{
+		
+		left:10px;
+		height:30px;
+		width:250px;
+		padding:2px;
+		margin-right:10px;
+		border-radius:6px;
+		position:relative;
+		top:-5px;
+}	
+
+div
+{
+   
+	position:relative;
+	top:5px;
+}
+
+
+/* Banner-section CSS Start */
+.banner-section
+{
+		background:linear-gradient(rgba(4, 9, 30, 0.6),rgba(4, 9, 30, 0.6)), url("../image/3.jpg");
+		height:800px;
+		background-size:100% 100%;
+		border-radius: 5px 100px ;
+	
+}
+.banner-section h2
+{
+	text-align: center;
+	font-size: 70px;
+	color: whitesmoke;
+	position: absolute;
+	bottom:50%;
+	right: 50%;
+	color:white;
+
+	
+
+}
+
+.banner-section p
+{
+text-align: center;
+color: orange;
+font-size: 30px;
+position: absolute;
+	bottom:45%;
+	right: 45%;
+}
+
+/* About-section CSS Start */
+
+
+.about h1
+{
+	font-family:Lucida Handwriting;
+	text-align:center;
+	padding-top:20px;
+}
+.about div img
+{
+	border-radius: 20px;
+	width: ;
+}
+.about div p
+{
+	font-size:40px;
+	text-align: justify;
+	font-family:Gabriola;
+	color:black;
+	width:60%;
+	position: absolute;
+	right: 40px;
+	top: -700px;
+	margin-top: 110px;
+
+	
+
+}
+/* gallery  CSS Start */
+
+.gallery div
+{
+		text-align:center;
+		width:30%;
+		display:inline-block;
+		margin:5px;
+		padding:10px;
+		text-decoration: none;
+			
+}
+
+.gallery div img
+{
+	width:75%;
+	height:52%;
+}
+
+.gallery h1
+{
+	font-family:Lucida Handwriting;
+	font-size: 30px;
+	text-align:center;
+	padding-top:20px;
+
+}
+.gallery div img
+{
+	height:100%;
+	width:100%;
+	padding: 20px;
+	border-radius: 50px;
+}
+.gallery img:hover
+{
+	transform: rotateY(180deg);
+	transition: 2s;
+}
+
+
+/* Our-Section CSS Start */
+
+	
+}
+.our
+{
+	text-align: center;
+
+}
+.our1{
+	width: 10%;
+	display:inline-block;
+}
+.layer{
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: 0.9s;
+	display: inline-block;
+}
+.layer:hover{
+	background: rgba(24, 60, 45, 0.7);
+}
+.layer h3{
+	width: 100%;
+	font-weight: 500%;
+	color: whitesmoke;
+	font-size: 20px;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+	position: absolute;
+	transition: 0.9s;
+}
+.layer:hover h3{
+	bottom: 50%;
+	opacity: 12;
+}
+
+
+
+/* Services Section CSS Start */
+
+
+.service-section h1
+{
+	font-family:Lucida Handwriting;
+	text-align:center;
+	padding-top:25px;
+}
+.service-section img
+{
+	height: 100%;
+	width: 100%;
+	border-radius: 20px;
+}
+.service-section div
+{
+	 width:20%;
+     display:inline-block;
+	 margin:15px;
+	 padding:20px;
+	 background:white;
+	 
+}
+.service-section div p
+{
+	font-family:Lucida Handwriting;
+	color: black;
+}
+.social a
+{
+	font-size:50px;
+	color:white;
+}
+
+.service-section div:hover
+{
+	background:orange;
+}
+
+
+
+
+
+
+
+
+
+
+/* Contact-section CSS Start */
+
+
+
+
+.contact-section 
+{
+    
+	width: 100%;
+	display:flex;
+	padding-top:20px;
+}
+
+.cont1
+{
+     margin:5px;
+	 text-align:center;	
+	 border:5px solid black;
+     background:black;  
+	 color:white;
+	 font-size:25px;
+	 font-family:Lucida Handwriting;
+	 margin-top:0px;
+	 width:700px;
+	 height: 600px;
+
+}
+.cont2 iframe
+{
+     width: 800px;
+     height: 600px;
+
+}
+
+.cont1 input
+{
+		
+		height:50px;
+		width:550px;
+	   margin:2px;
+	   padding-top:12px;
+	   border-radius: 10px;
+}
+#sub
+{
+		background :darkorange;
+		
+}
+.btn3
+{
+		
+		background:white;
+		font-size:15px;
+		text-align: center;
+}
+
+
+
+/*footer-Section css*/
+
+
+.footer-section
+{
+		background:url(../image/footer-bg.jpg);
+		height: 700px;
+		color:white;
+		border-radius: 20px 20px 20px;
+				
+}
+
+.footer-section p
+{
+    font-size:30px;	
+	font-family:monotype corsiva;
+	color:white;
+	
+}
+.footer-section div
+{
+	width:22%;
+	display:inline-block;
+	position: relative;
+	top: -50px;
+	right: -50px;
+}
+.footer-section h1,h2, h3
+{
+	font-family:calibri;
+}
+.footer-section ul li a
+{
+	font-size:25px;
+	color:white;
+	text-decoration: none;
+}	
+
+#foot
+{
+	padding-left:20px;
+
+}
+
+.social ul li
+{
+	display:inline-block;
+	padding:8px;
+	text-align:center;
+}
+
+.plateform ul li 
+{
+    padding:2px;
+	font-size:20px;
+}
+.support ul li 
+{
+    padding:2px;
+	font-size:20px;
+}
+
+
+.ourservice ul li
+{
+	padding: 2px;
+	font-size: 20px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
